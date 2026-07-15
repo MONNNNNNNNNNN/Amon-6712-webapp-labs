@@ -1,0 +1,37 @@
+/* Total Width = Content Width + Left Padding + Right Padding + Left Border + Right Border
+   Total Width = 250px + 15px + 15px + 3px + 3px = 286px */
+
+.card {
+  width: 250px;
+  border: 3px solid darkslategray;
+  padding: 15px;
+  margin: 20px;
+}
+
+#card-featured {
+  border-style: dashed;
+  border-color: crimson;
+  background-color: mistyrose;
+}
+
+#card-compact {
+  padding: 5px 25px;
+}
+
+.card h3 {
+  font-family: "Times New Roman", serif;
+  font-weight: bold;
+}
+
+.card p {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+/* This rule wins because both body selectors have the same specificity
+   (0,0,0,1). The internal <style> block is placed before the <link> tag
+   in the <head>, so this external stylesheet loads later and wins the
+   cascade tie-break (last rule with equal specificity wins). */
+body {
+  background-color: lightyellow;
+}
