@@ -1,0 +1,74 @@
+/* ===== Navigation bar ===== */
+
+#navbar {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  overflow: hidden;
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  background-color: #333;
+}
+
+#navbar li a:hover {
+  background-color: green;
+}
+
+#navbar li a:active {
+  background-color: purple;
+}
+
+/* Brand grows to fill remaining space, pushing other links to the right */
+#navbar li.brand {
+  flex-grow: 1;
+}
+
+/* ===== Table ===== */
+
+#courses {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#courses th,
+#courses td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#courses th {
+  background-color: #4CAF50;
+  color: white;
+  text-align: left;
+}
+
+#courses tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#courses tr:hover {
+  background-color: #ddd;
+}
+
+/* ===== Display ===== */
+
+/*
+  display: none removes the element from the page entirely: it is not
+  rendered, takes up no space in the layout, and surrounding elements
+  collapse into the space it would have occupied.
+
+  visibility: hidden only hides the element visually (it is invisible
+  to the eye), but the element still occupies its normal space in the
+  layout, so surrounding elements are not repositioned.
+*/
+#note {
+  display: none;
+}
