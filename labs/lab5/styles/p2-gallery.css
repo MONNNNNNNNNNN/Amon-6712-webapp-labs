@@ -1,0 +1,46 @@
+
+/* max-width: 100% is preferred over width: 100% to ensure the image scales down proportionally without exceeding its original size, maintaining its aspect ratio. */
+
+.hero {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tile {
+    flex: 1 1 200px;
+    margin: 0;
+}
+.tile img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
+
+.tile-portrait img {
+    object-position: 50% 20%;
+}
+
+@media (min-width: 361px) {
+  .tile {
+    flex: 1 1 45%;
+  }
+}
+
+
+@media (min-width: 769px) {
+  .tile {
+    flex: 1 1 30%;
+  }
+}
+
+

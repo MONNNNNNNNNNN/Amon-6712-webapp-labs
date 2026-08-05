@@ -1,0 +1,87 @@
+/* Strategy: mobile-first */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* ---------- Navigation (Flexbox) ---------- */
+/* Mobile default: links stacked vertically, full width */
+nav {
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #222;
+}
+
+nav a {
+  flex: 1 1 100%;
+  padding: 15px 20px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid #444;
+}
+
+/* Desktop (≥769px): one horizontal row, equal width */
+@media (min-width: 769px) {
+  nav {
+    flex-direction: row;
+  }
+
+  nav a {
+    flex: 1;
+    border-bottom: none;
+    border-right: 1px solid #444;
+  }
+
+  nav a:last-child {
+    border-right: none;
+  }
+}
+
+/* ---------- Link states — LVHA order ---------- */
+nav a:link {
+  color: rgb(255, 255, 255);
+}
+
+nav a:visited {
+  color: #f8f8f8;
+}
+
+nav a:hover {
+  background-color: #8f8b8b;
+}
+
+nav a:active {
+  background-color: #f40303;
+}
+
+/* ---------- Tagline ---------- */
+/* Hidden by default (mobile-first base = small phones) */
+.tagline {
+  display: none;
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+}
+
+/* Re-show at 481px and up (tablet + desktop) */
+@media (min-width: 481px) {
+  .tagline {
+    display: block;
+  }
+}
+
+/* ---------- Sections ---------- */
+section {
+  min-height: 100vh;
+  padding: 20px;
+  scroll-margin-top: 60px; /* prevents heading being hidden under sticky nav */
+}
