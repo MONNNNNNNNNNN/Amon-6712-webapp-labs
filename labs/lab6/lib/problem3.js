@@ -13,8 +13,6 @@ const parseValidNumber = (input) => {
   return Number(String(input).trim());
 };
 
-// ===== Function expressions: operations =====
-
 
 const add = function (a, b) {
   return a + b;
@@ -47,8 +45,6 @@ const getOperationFunction = function (op) {
       return null; 
   }
 };
-
-// ===== Part 2 building blocks =====
 
 /**
  * @returns {number[]}
@@ -93,8 +89,6 @@ const performCalculationOnNumbers = function (numbers, operationCallback) {
   return result;
 };
 
-// ===== Part 1: Two-Number Calculator =====
-
 const runTwoNumberCalculator = function () {
   let op = prompt("Enter operation (+ - * /):");
   while (getOperationFunction(op) === null) {
@@ -126,8 +120,6 @@ const runTwoNumberCalculator = function () {
   alert(`${first} ${op} ${second} = ${result}`);
 };
 
-// ===== Part 2: Multiple-Number Calculator =====
-
 const runMultipleNumberCalculator = function () {
   let op = prompt("Enter operation (+ - * /):");
   while (getOperationFunction(op) === null) {
@@ -151,8 +143,6 @@ const runMultipleNumberCalculator = function () {
 
   alert(`${numbers.join(` ${op} `)} = ${result}`);
 };
-
-// ===== Driver =====
 
 const calculatorType = prompt(
   "Select calculator type (0 = two numbers, 1 = multiple numbers):"
