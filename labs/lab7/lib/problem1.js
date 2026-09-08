@@ -13,7 +13,7 @@ function handleMenuClick(e) {
   // 2. Set selection content to “You picked: <item>”
   selection.textContent = `You picked: ${e.target.textContent}`;
   // 3. Set the item background color to a highlight colour.
-  e.target.style.backgroundColor = "#f0e68c"; // หรือ "lightyellow" ก็ได้
+  e.target.style.backgroundColor = "#f0e68c";
   // 4. Increment picks to “Total picks: <picks>”
   picks += 1;
   count.textContent = `Total picks: ${picks}`;
