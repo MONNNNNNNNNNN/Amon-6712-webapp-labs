@@ -1,0 +1,36 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.greeting-message {
+    color: white;
+    background-color: black;
+    font-size: 2rem; 
+    padding: 1.5rem;
+    margin-top: 2rem;
+    border-radius: 8px;
+    font-weight: bold;
+}
