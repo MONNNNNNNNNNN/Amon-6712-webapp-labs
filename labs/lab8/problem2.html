@@ -1,0 +1,39 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Challenge: Create a solar system</title>
+    <style>
+      body {
+        background-color: black;
+        padding: 10px;
+      }
+
+      .planet {
+        width: 6.25rem;
+        height: 6.25rem;
+        border-radius: 50%;
+        text-align: center;
+        padding: 0.625rem;
+        position: relative;
+      }
+
+      .moon {
+        position: absolute;
+        width: 30%;
+        height: 30%;
+        border-radius: 50%;
+        background: rgb(237, 237, 237);
+      }
+
+      @media (max-width: 30rem) {
+        .planet {
+          width: 4.5rem;
+          height: 4.5rem;
+        }
+      }
+    </style>
+    <script src="lib/problem2.js" defer></script>
+  </head>
+</html>
