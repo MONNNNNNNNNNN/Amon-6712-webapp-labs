@@ -1,0 +1,8 @@
+Problem 4 - Animating the Walking Cat
+
+Clip link: <PASTE THE UPLOADED CLIP LINK HERE BEFORE SUBMITTING>
+
+A recording of the working page is also committed next to this file as
+6712-lab8-prob4.webm (the cat walks left to right and stops flush against the
+right edge, switching to the static cat at the same width). Upload that file,
+or record your own screen, and paste the resulting link above.
