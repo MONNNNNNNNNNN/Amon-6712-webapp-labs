@@ -1,0 +1,22 @@
+div {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 1s;              /* wait 1 second before the first run */
+    animation-iteration-count: infinite; /* loop forever */
+}
+
+@keyframes example {
+    from {
+        left: 0px;
+        background-color: red;
+    }
+    to {
+        left: 200px;
+        background-color: yellow;
+    }
+}

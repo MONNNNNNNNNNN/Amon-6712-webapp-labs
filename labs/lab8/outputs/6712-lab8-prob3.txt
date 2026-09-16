@@ -1,0 +1,8 @@
+Problem 3 - Click-to-Place Mustache
+
+Clip link: <PASTE THE UPLOADED CLIP LINK HERE BEFORE SUBMITTING>
+
+A recording of the working page is also committed next to this file as
+6712-lab8-prob3.webm (three clicks around the cat's mouth, the mustache
+re-centres on each click). Upload that file, or record your own screen, and
+paste the resulting link above.

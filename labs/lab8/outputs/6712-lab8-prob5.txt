@@ -1,0 +1,8 @@
+Problem 5 - Looping CSS Animation
+
+Clip link: <PASTE THE UPLOADED CLIP LINK HERE BEFORE SUBMITTING>
+
+A recording of the working page is also committed next to this file as
+6712-lab8-prob5.webm (the box waits one second, then slides from left: 0px to
+left: 200px while fading red to yellow, looping forever). Upload that file, or
+record your own screen, and paste the resulting link above.
