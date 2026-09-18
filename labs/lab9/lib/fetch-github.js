@@ -6,7 +6,7 @@ async function loadGithubProfile() {
     try {
         const response = await fetch(githubApiUrl);
         if (!response.ok) {
-            throw new Error(`GitHub API error with status ${response.status}`);
+            throw new Error(`GitHub user ID is invalid or not found! (status ${response.status})`);
         }
         const githubData = await response.json();
 
