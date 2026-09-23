@@ -1,0 +1,11 @@
+{
+  "name": "lab10",
+  "version": "1.0.0",
+  "description": "Calculator application for Lab 10",
+  "main": "calculator.js",
+  "scripts": {
+    "calc": "node calculator.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
