@@ -1,0 +1,40 @@
+.prob4-container {
+  padding: 40px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.prob4-container h1 {
+  background-color: black;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+ol {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.github-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Add a margin to the avatar so it spaces out from the link text */
+.github-list-item img {
+  margin-right: 16px;
+  border-radius: 4px;
+}
+
+.github-profile-link {
+  color: #0066cc;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.github-profile-link:hover {
+  color: #004499;
+}

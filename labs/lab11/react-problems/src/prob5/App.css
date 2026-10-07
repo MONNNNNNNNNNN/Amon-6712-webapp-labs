@@ -1,0 +1,43 @@
+.prob5-container {
+  padding: 40px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.prob5-container h1 {
+  background-color: black;
+  color: white;
+  padding: 12px 32px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+ol {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.popular-user-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.popular-user-item img {
+  margin-right: 16px;
+  border-radius: 4px;
+}
+
+.user-link {
+  color: #0066cc;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.user-link:hover {
+  color: #004499;
+}
+
+.follower-count {
+  color: #333;
+}

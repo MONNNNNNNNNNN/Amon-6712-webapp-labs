@@ -1,0 +1,24 @@
+#root {
+  width: 100%;
+}
+
+.github-info {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+}
+
+.github-info h1 {
+  margin: 0 0 10px;
+  font-size: 36px;
+}
+
+.github-avatar {
+  width: 165px;
+  height: 165px;
+  object-fit: cover;
+}
